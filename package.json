@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "loader-utils": "^1.1.0"
+  },
+  "name": "html-ex-loader",
+  "version": "0.0.0",
+  "description": "Loader to allow better HTML transformations",
+  "main": "index.js",
+  "repository": "https://github.com/renanhangai/html-ex-loader.git",
+  "author": "renanhangai <hangai.renan@gmail.com>",
+  "license": "MIT"
+}
