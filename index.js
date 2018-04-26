@@ -10,7 +10,7 @@ module.exports = function( source, map ) {
 		.then(function() {
 			const $ = cheerio.load( source );
 			if ( options.transform )
-				return Promise.resolve( options.transform( $ ) );
+				return Promise.resolve( options.transform( loader, $, options ) );
 		})
 		.then( ( content ) => {
 			callback( null, content || "" );
