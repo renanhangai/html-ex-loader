@@ -4,7 +4,7 @@
     "loader-utils": "^1.1.0"
   },
   "name": "html-ex-loader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Loader to allow better HTML transformations",
   "main": "index.js",
   "repository": "https://github.com/renanhangai/html-ex-loader.git",
